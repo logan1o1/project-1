@@ -1,0 +1,104 @@
+:root {
+    --main-bg-color: black;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 75px;
+    width: 100vw;
+    background-color: var(--main-bg-color);
+    color: aliceblue;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lobster Two';
+}
+
+/* .list_order{
+    position: relative;
+    right: 0;
+} */
+.icon {
+    display: inline-block;
+    position: relative;
+    right: 350px;
+    bottom: 4px;
+}
+.logo{
+    display: inline-block;
+    position: relative;
+    left: -365px;
+}
+.logo img{
+    width:50px ;
+}
+
+.icon img {
+    width: 100px;
+}
+
+.icon a {
+    color: aqua;
+}
+.icon a:hover{
+    color: fuchsia;
+}
+
+nav {
+    position: relative;
+    left: 366px;
+}
+
+nav ul li a {
+    color: aliceblue;
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav {
+    display: inline-block;
+    padding: 5px;
+}
+
+.nav a:hover {
+    color: fuchsia;
+}
+
+.search_bar {
+    display: inline-block;
+    position: relative;
+    left: 336px;
+}
+
+.search {
+    width: 193px;
+}
+
+@media screen and (max-height:46.15px) {
+    header {
+        height: 65.4333px;
+    }
+}
+
+.container{
+    min-height: calc(100vh- 16vh);
+}
+
+footer {
+    font-family: 'Lobster Two';
+    background-color: var(--main-bg-color);
+    color: aliceblue;
+    width: 100vw;
+    height: 6vh;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
